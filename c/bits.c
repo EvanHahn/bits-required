@@ -3,5 +3,5 @@
 #include <math.h>
 
 int main(int argc, char** argv) {
-  printf("%d\n", 1 + (int) (log(strtoul(argv[1], NULL, 10)) / log(2)));
+  printf("%d\n", 1 + (int) (log(strtod(argv[1], NULL)) / log(2)));
 }
