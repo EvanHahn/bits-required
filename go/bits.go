@@ -12,5 +12,5 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(int(math.Ceil(math.Log2(value))))
+	fmt.Println(int(math.Log2(value)) + 1)
 }

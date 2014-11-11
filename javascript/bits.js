@@ -1,1 +1,1 @@
-console.log(Math.ceil(Math.log(process.argv[2]) * Math.LOG2E));
+console.log(Math.floor(Math.log(process.argv[2]) * Math.LOG2E) + 1);
