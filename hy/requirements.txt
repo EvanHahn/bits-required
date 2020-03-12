@@ -1,4 +1,4 @@
 argparse==1.2.1
 astor==0.4
 hy==0.10.1
-rply==0.7.2
+rply==0.7.4
